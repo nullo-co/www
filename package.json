@@ -1,0 +1,26 @@
+{
+  "name": "nullo",
+  "version": "0.0.0",
+  "description": "nullo",
+  "main": "index.js",
+  "repository": "nullo-co/www",
+  "author": "bukinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "next": "^9.1.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "^3.7.2"
+  }
+}
